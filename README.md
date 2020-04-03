@@ -8,7 +8,7 @@ This repository provides links to the OpenMBIR family of software packages. Open
 
 * For Super-Voxel (i.e., fast parallelized) Parallel Beam MBIR, please see https://github.com/HPImaging/sv-mbirct
 
-* MBIR for electron microscopy (EM) applications: https://github.com/OpenMBIR/openmbir  
+* MBIR for electron microscopy (EM) applications: https://github.com/OpenMBIR/OpenMBIR-TEM
 More information for bright field: https://engineering.purdue.edu/~bouman/OpenMBIR/haadf-em/index.html  
 More information for dark field: https://engineering.purdue.edu/~bouman/OpenMBIR/haadf-em/index.html
 
