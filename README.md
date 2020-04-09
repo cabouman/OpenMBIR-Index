@@ -9,7 +9,7 @@ This repository provides links to the OpenMBIR family of software packages. Open
 * For Super-Voxel (i.e., fast parallelized) Parallel Beam MBIR, please see https://github.com/HPImaging/sv-mbirct or https://github.com/cabouman/OpenMBIR-ParBeam-SV
 
 * MBIR for electron microscopy (EM) applications: https://github.com/OpenMBIR/OpenMBIR-TEM  
-More information for bright field: https://engineering.purdue.edu/~bouman/OpenMBIR/bf-em/index.html
+More information for bright field: https://engineering.purdue.edu/~bouman/OpenMBIR/bf-em/index.html  
 More information for dark field: https://engineering.purdue.edu/~bouman/OpenMBIR/haadf-em/index.html
 
 * MBIR for TIMBIR 4D space-time reconstruction: https://github.com/adityamnk/timbir  
