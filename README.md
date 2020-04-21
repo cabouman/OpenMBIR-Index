@@ -15,3 +15,5 @@ More information for dark field: https://engineering.purdue.edu/~bouman/OpenMBIR
 * MBIR for TIMBIR 4D space-time reconstruction: https://github.com/adityamnk/timbir  
 More information for TIMBIR: https://engineering.purdue.edu/~bouman/OpenMBIR/timbir/index.html
 
+* Projects under development:  
+Super-voxel code with MACE support: https://github.com/vsridha/sv-mbirct/tree/dev-CE
