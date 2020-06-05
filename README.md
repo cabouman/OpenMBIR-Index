@@ -2,12 +2,12 @@
 
 This repository provides links to the OpenMBIR family of software packages. OpenMBIR is a family of open source reconstruction algorithms based on model-based iterative reconstruction that can be used to reconstruct tomographic data with various geometries.
 
-* For Parallel Beam MBIR: https://github.com/cabouman/OpenMBIR-ParBeam
-
-* For Cone Beam MBIR: https://github.com/cabouman/OpenMBIR-ConeBeam
-
 * For Super-Voxel (i.e., fast parallelized) Parallel Beam MBIR: https://github.com/HPImaging/sv-mbirct  
 Super-voxel code that adds PnP functionality: https://github.com/vsridha/sv-mbirct
+
+* For Parallel Beam MBIR (reference but slow): https://github.com/cabouman/OpenMBIR-ParBeam
+
+* For Cone Beam MBIR: https://github.com/cabouman/OpenMBIR-ConeBeam
 
 * MBIR for electron microscopy (EM) applications: https://github.com/OpenMBIR/OpenMBIR-TEM  
 More information for bright field: https://engineering.purdue.edu/~bouman/OpenMBIR/bf-em/index.html  
