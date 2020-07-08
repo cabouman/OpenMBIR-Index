@@ -7,7 +7,8 @@ Super-voxel code that adds PnP functionality: https://github.com/vsridha/sv-mbir
 
 * For Parallel Beam MBIR (reference but slow): https://github.com/cabouman/OpenMBIR-ParBeam
 
-* For Cone Beam MBIR: https://github.com/cabouman/OpenMBIR-ConeBeam
+* For Cone Beam MBIR: https://github.com/cabouman/OpenMBIR-ConeBeam  
+For 4D Cone Beam MBIR: https://github.com/cabouman/OpenMBIR-ConeBeam-4D
 
 * MBIR for electron microscopy (EM) applications: https://github.com/OpenMBIR/OpenMBIR-TEM  
 More information for bright field: https://engineering.purdue.edu/~bouman/OpenMBIR/bf-em/index.html  
