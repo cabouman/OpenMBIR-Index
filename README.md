@@ -2,7 +2,8 @@
 
 This repository provides links to the OpenMBIR family of software packages. OpenMBIR is a family of open source reconstruction algorithms based on model-based iterative reconstruction that can be used to reconstruct tomographic data with various geometries.
 
-* For Super-Voxel (i.e., fast parallelized) Parallel Beam MBIR: https://github.com/HPImaging/sv-mbirct  
+* Python wrapper for fast Super-Voxel parallel-beam MBIR https://github.com/cabouman/svmbir  
+Underlying C version of Super-Voxel (i.e., fast parallelized) Parallel Beam MBIR: https://github.com/HPImaging/sv-mbirct  
 Super-voxel code that adds PnP functionality: https://github.com/vsridha/sv-mbirct
 
 * For Parallel Beam MBIR (reference but slow): https://github.com/cabouman/OpenMBIR-ParBeam
