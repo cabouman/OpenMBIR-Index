@@ -5,7 +5,7 @@ This repository provides links to the OpenMBIR family of software packages. Open
 * Python wrapper for fast Super-Voxel parallel-beam MBIR https://github.com/cabouman/svmbir  
 For most people, this is the package to use.
 It is fast, parallel beam CT code with a python interface, and it has extensive instructions.
-Please email use if you have any problems installing or using it.
+Please email us if you have any problems installing or using it.
 
 * This is the underlying C version of Super-Voxel (i.e., fast parallelized) Parallel Beam MBIR: https://github.com/HPImaging/sv-mbirct  
 Super-voxel code that adds PnP functionality: https://github.com/vsridha/sv-mbirct
