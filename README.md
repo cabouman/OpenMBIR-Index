@@ -19,3 +19,6 @@ This is a simple example of how you can use Cython to build a python interface t
 
 **[C-code:](https://github.com/cabouman/C-code)**
 This is a simple C-code package for reading and writing TIFF images.
+
+**[Legacy C-code:](http://engineering.purdue.edu/~bouman/OpenMBIR)**
+This is a pointer to a web page containing some of the old C-code implementations that served as the basis for these newer open-source packages.
