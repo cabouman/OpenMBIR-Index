@@ -1,28 +1,21 @@
-# OpenMBIR-Index
+# OpenMBIR Software Index
 
-This repository provides links to the OpenMBIR family of software packages. OpenMBIR is a family of open source reconstruction algorithms based on model-based iterative reconstruction that can be used to reconstruct tomographic data with various geometries.
+This repository provides links to the OpenMBIR family of software packages. OpenMBIR is a family of open source reconstruction algorithms based on model-based iterative reconstruction that can be used to reconstruct tomographic data and other forms of sensor data.
 
-* Python wrapper for fast Super-Voxel parallel-beam MBIR https://github.com/cabouman/svmbir  
-For most people, this is the package to use.
-It is fast, parallel beam CT code with a python interface, and it has extensive instructions.
-Please email us if you have any problems installing or using it.
+**[SVMBIR Parallel CT:](https://github.com/cabouman/svmbir)**
+This is a python package for parallel and fan beam CT reconstruction. The code is very fast and easy to use with good [documentation](https://svmbir.readthedocs.io/en/latest/index.html). This code is useful for reconstructing any parallel beam data including X-ray synchrotron and electron microscopy tilt sequences.
 
-* This is the underlying C version of Super-Voxel (i.e., fast parallelized) Parallel Beam MBIR: https://github.com/HPImaging/sv-mbirct  
-Super-voxel code that adds PnP functionality: https://github.com/vsridha/sv-mbirct
-This code is not recommended for most users. It is only for experts.
+**[MBIR Cone Beam CT:](https://github.com/cabouman/mbircone)**
+This is a python package for cone beam CT reconstruction. The code is fairly fast and easy to use. It also supports 4D and PnP reconstruction using CNN prior models. 
 
-* For Parallel Beam MBIR (reference but slow): https://github.com/cabouman/OpenMBIR-ParBeam
-* This code is very slow. It is only provided as a reference for testing and comparison.
+**[MBIR Multislice Helical CT:](https://github.com/cabouman/mbirhelical)**
+This is a python package for multislice helical scan CT reconstruction. This is the geometry used by typical medical scanners. This is raw C code. It is reasonably well written, but since it is C code, it requires a lot of TLC to use. We are hoping to put a python front end on this code and accellerate it in the future.
 
-* For Cone Beam MBIR: https://github.com/cabouman/OpenMBIR-ConeBeam  
-For 4D Cone Beam MBIR: https://github.com/cabouman/OpenMBIR-ConeBeam-4D
+**[Gaussian Mixture EM Clustering Algorithm:](https://github.com/cabouman/pygmcluster)**
+This is a python package for estimating the order and parameters of a Gaussian mixture model from training data. It is a port of some earlier widely used [C code](https://engineering.purdue.edu/~bouman/software/cluster).
 
-* MBIR for electron microscopy (EM) applications: https://github.com/OpenMBIR/OpenMBIR-TEM  
-More information for bright field: https://engineering.purdue.edu/~bouman/OpenMBIR/bf-em/index.html  
-More information for dark field: https://engineering.purdue.edu/~bouman/OpenMBIR/haadf-em/index.html
+**[Cython Sandbox:](https://github.com/cabouman/sandbox)**
+This is a simple example of how you can use Cython to build a python interface to a C-code package.
 
-* MBIR for TIMBIR 4D space-time reconstruction: https://github.com/adityamnk/timbir  
-More information for TIMBIR: https://engineering.purdue.edu/~bouman/OpenMBIR/timbir/index.html
-
-* Projects under development:  
-Super-voxel code with MACE support: https://github.com/vsridha/sv-mbirct/tree/dev-CE
+**[C-code:](https://github.com/cabouman/C-code)**
+This is a simple C-code package for reading and writing TIFF images.
