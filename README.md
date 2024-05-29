@@ -2,6 +2,9 @@
 
 This repository provides links to the OpenMBIR family of software packages. OpenMBIR is a family of open source reconstruction algorithms based on model-based iterative reconstruction that can be used to reconstruct tomographic data and other forms of sensor data.
 
+**[MBIRJAX CT:](https://github.com/cabouman/mbirjax)**
+This is a new package based on jax. It offers a) ease of use, b) speed on GPU plattforms, c) rapid and robust convergence, and d) the ability to easily add new geometries. It currently supports both parallel and cone beam geometries, but we hope to add more geometries in the future. It is in an early stage of development, but maturing rapidly. The documentation is available from [here](https://mbirjax.readthedocs.io).
+
 **[SVMBIR Parallel CT:](https://github.com/cabouman/svmbir)**
 This is a python package for parallel and fan beam CT reconstruction. The code is very fast and easy to use with good [documentation](https://svmbir.readthedocs.io/en/latest/index.html). This code is useful for reconstructing any parallel beam data including X-ray synchrotron and electron microscopy tilt sequences.
 
